@@ -15,6 +15,7 @@
 		E4E3947928CE41410038B8F2 /* StatusLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E3947828CE41410038B8F2 /* StatusLabel.swift */; };
 		E4E799C328CF79CE00D9B341 /* UIStackView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E799C228CF79CE00D9B341 /* UIStackView + Extensions.swift */; };
 		E4E799C528CF7A9B00D9B341 /* MailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E799C428CF7A9B00D9B341 /* MailTextField.swift */; };
+		E4E799C728CF7C3400D9B341 /* VerificationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E799C628CF7C3400D9B341 /* VerificationButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		E4E3947828CE41410038B8F2 /* StatusLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusLabel.swift; sourceTree = "<group>"; };
 		E4E799C228CF79CE00D9B341 /* UIStackView + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView + Extensions.swift"; sourceTree = "<group>"; };
 		E4E799C428CF7A9B00D9B341 /* MailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailTextField.swift; sourceTree = "<group>"; };
+		E4E799C628CF7C3400D9B341 /* VerificationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			children = (
 				E4E3947828CE41410038B8F2 /* StatusLabel.swift */,
 				E4E799C428CF7A9B00D9B341 /* MailTextField.swift */,
+				E4E799C628CF7C3400D9B341 /* VerificationButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4E3947928CE41410038B8F2 /* StatusLabel.swift in Sources */,
+				E4E799C728CF7C3400D9B341 /* VerificationButton.swift in Sources */,
 				E4E3946428CE3F3E0038B8F2 /* VerificationViewController.swift in Sources */,
 				E4E799C528CF7A9B00D9B341 /* MailTextField.swift in Sources */,
 				E4E3946028CE3F3E0038B8F2 /* AppDelegate.swift in Sources */,
