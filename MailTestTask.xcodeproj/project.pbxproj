@@ -13,6 +13,8 @@
 		E4E3946928CE3F3F0038B8F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4E3946828CE3F3F0038B8F2 /* Assets.xcassets */; };
 		E4E3946C28CE3F3F0038B8F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4E3946A28CE3F3F0038B8F2 /* LaunchScreen.storyboard */; };
 		E4E3947928CE41410038B8F2 /* StatusLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E3947828CE41410038B8F2 /* StatusLabel.swift */; };
+		E4E799C328CF79CE00D9B341 /* UIStackView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E799C228CF79CE00D9B341 /* UIStackView + Extensions.swift */; };
+		E4E799C528CF7A9B00D9B341 /* MailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E799C428CF7A9B00D9B341 /* MailTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E4E3946B28CE3F3F0038B8F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4E3946D28CE3F3F0038B8F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4E3947828CE41410038B8F2 /* StatusLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusLabel.swift; sourceTree = "<group>"; };
+		E4E799C228CF79CE00D9B341 /* UIStackView + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView + Extensions.swift"; sourceTree = "<group>"; };
+		E4E799C428CF7A9B00D9B341 /* MailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 				E4E3947428CE3FD30038B8F2 /* Models */,
 				E4E3947528CE3FD90038B8F2 /* Views */,
 				E4E3947628CE3FDE0038B8F2 /* Controllers */,
+				E4E799C028CF79A400D9B341 /* Extensions */,
 				E4E3947728CE3FE50038B8F2 /* Resources */,
 			);
 			path = MailTestTask;
@@ -85,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				E4E3947828CE41410038B8F2 /* StatusLabel.swift */,
+				E4E799C428CF7A9B00D9B341 /* MailTextField.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -105,6 +111,22 @@
 				E4E3946D28CE3F3F0038B8F2 /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		E4E799C028CF79A400D9B341 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E4E799C128CF79BC00D9B341 /* UIKit */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E4E799C128CF79BC00D9B341 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				E4E799C228CF79CE00D9B341 /* UIStackView + Extensions.swift */,
+			);
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,7 +201,9 @@
 			files = (
 				E4E3947928CE41410038B8F2 /* StatusLabel.swift in Sources */,
 				E4E3946428CE3F3E0038B8F2 /* VerificationViewController.swift in Sources */,
+				E4E799C528CF7A9B00D9B341 /* MailTextField.swift in Sources */,
 				E4E3946028CE3F3E0038B8F2 /* AppDelegate.swift in Sources */,
+				E4E799C328CF79CE00D9B341 /* UIStackView + Extensions.swift in Sources */,
 				E4E3946228CE3F3E0038B8F2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

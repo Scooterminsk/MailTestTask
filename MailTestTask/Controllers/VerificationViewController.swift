@@ -29,7 +29,7 @@ class VerificationViewController: UIViewController {
 
     private func setupViews() {
         view.addSubview(backgroundImageView)
-//        view.addSubview(statusLabel)
+        view.addSubview(statusLabel)
     }
     
     private func setDelegates() {
@@ -40,7 +40,16 @@ class VerificationViewController: UIViewController {
 extension VerificationViewController {
     
     private func setConstraints() {
+        NSLayoutConstraint.activate([
+            backgroundImageView.topAnchor.constraint(equalTo: view.topAnchor, constant: 0),
+            backgroundImageView.centerXAnchor.constraint(equalTo: view.centerXAnchor)
+        ])
         
+        NSLayoutConstraint.activate([
+            statusLabel.topAnchor.constraint(equalTo: view.topAnchor, constant: 300),
+            statusLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
+            statusLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20)
+        ])
     }
     
 }
