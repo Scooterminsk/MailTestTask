@@ -45,6 +45,7 @@ class VerificationViewController: UIViewController {
     private func setDelegates() {
         collectionView.dataSource = self
         collectionView.selectMailDelegate = self
+        mailTextField.textFieldDelegate = self
     }
     
     @objc private func verificationButtonTapped() {
@@ -76,6 +77,18 @@ extension VerificationViewController: UICollectionViewDataSource {
 extension VerificationViewController: SelectProposedMailProtocol {
     func selectProposedMail(indexPath: IndexPath) {
         print(indexPath)
+    }
+}
+
+// MARK: - ActionsMailTextFieldProtocol
+
+extension VerificationViewController: ActionsMailTextFieldProtocol {
+    func typingText(text: String) {
+        print(text)
+    }
+    
+    func cleanOutTextField() {
+        print("clear")
     }
 }
 
