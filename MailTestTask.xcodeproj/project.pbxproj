@@ -19,6 +19,7 @@
 		E4E799C928CF7D5100D9B341 /* MailsCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E799C828CF7D5100D9B341 /* MailsCollectionView.swift */; };
 		E4E799CB28CF7E3B00D9B341 /* MailsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E799CA28CF7E3B00D9B341 /* MailsCollectionViewCell.swift */; };
 		E4E9C1D328D60BB50010AD32 /* VerificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E9C1D228D60BB50010AD32 /* VerificationModel.swift */; };
+		E4E9C1D528D611DB0010AD32 /* String + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E9C1D428D611DB0010AD32 /* String + Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		E4E799C828CF7D5100D9B341 /* MailsCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailsCollectionView.swift; sourceTree = "<group>"; };
 		E4E799CA28CF7E3B00D9B341 /* MailsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailsCollectionViewCell.swift; sourceTree = "<group>"; };
 		E4E9C1D228D60BB50010AD32 /* VerificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationModel.swift; sourceTree = "<group>"; };
+		E4E9C1D428D611DB0010AD32 /* String + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				E4E799C128CF79BC00D9B341 /* UIKit */,
+				E4E9C1D428D611DB0010AD32 /* String + Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 				E4E799C928CF7D5100D9B341 /* MailsCollectionView.swift in Sources */,
 				E4E799CB28CF7E3B00D9B341 /* MailsCollectionViewCell.swift in Sources */,
 				E4E799C728CF7C3400D9B341 /* VerificationButton.swift in Sources */,
+				E4E9C1D528D611DB0010AD32 /* String + Extensions.swift in Sources */,
 				E4E3946428CE3F3E0038B8F2 /* VerificationViewController.swift in Sources */,
 				E4E799C528CF7A9B00D9B341 /* MailTextField.swift in Sources */,
 				E4E3946028CE3F3E0038B8F2 /* AppDelegate.swift in Sources */,
