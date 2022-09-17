@@ -47,4 +47,8 @@ class StatusLabel: UILabel {
         text = "Mail is not valid"
         textColor = #colorLiteral(red: 0.1960784314, green: 0.3411764706, blue: 0.1019607843, alpha: 1)
     }
+    
+    public func setDefaultSetting() {
+        configure()
+    }
 }

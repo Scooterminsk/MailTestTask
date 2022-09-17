@@ -51,4 +51,8 @@ class VerificationButton: UIButton {
         isEnabled = true
         alpha = 1
     }
+    
+    public func setDefaultSetting() {
+        configure()
+    }
 }
