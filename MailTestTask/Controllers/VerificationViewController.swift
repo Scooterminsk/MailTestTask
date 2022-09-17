@@ -27,6 +27,8 @@ class VerificationViewController: UIViewController {
                                              axis: .vertical,
                                              spacing: 20)
     
+    private let verificationModel = VerificationModel()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

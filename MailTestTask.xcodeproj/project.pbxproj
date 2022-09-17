@@ -18,6 +18,7 @@
 		E4E799C728CF7C3400D9B341 /* VerificationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E799C628CF7C3400D9B341 /* VerificationButton.swift */; };
 		E4E799C928CF7D5100D9B341 /* MailsCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E799C828CF7D5100D9B341 /* MailsCollectionView.swift */; };
 		E4E799CB28CF7E3B00D9B341 /* MailsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E799CA28CF7E3B00D9B341 /* MailsCollectionViewCell.swift */; };
+		E4E9C1D328D60BB50010AD32 /* VerificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E9C1D228D60BB50010AD32 /* VerificationModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		E4E799C628CF7C3400D9B341 /* VerificationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationButton.swift; sourceTree = "<group>"; };
 		E4E799C828CF7D5100D9B341 /* MailsCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailsCollectionView.swift; sourceTree = "<group>"; };
 		E4E799CA28CF7E3B00D9B341 /* MailsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailsCollectionViewCell.swift; sourceTree = "<group>"; };
+		E4E9C1D228D60BB50010AD32 /* VerificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		E4E3947428CE3FD30038B8F2 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				E4E9C1D228D60BB50010AD32 /* VerificationModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4E9C1D328D60BB50010AD32 /* VerificationModel.swift in Sources */,
 				E4E3947928CE41410038B8F2 /* StatusLabel.swift in Sources */,
 				E4E799C928CF7D5100D9B341 /* MailsCollectionView.swift in Sources */,
 				E4E799CB28CF7E3B00D9B341 /* MailsCollectionViewCell.swift in Sources */,
