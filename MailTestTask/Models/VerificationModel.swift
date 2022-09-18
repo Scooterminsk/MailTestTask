@@ -10,7 +10,7 @@ import UIKit
 
 class VerificationModel {
     
-    private let mailsArray = ["@google.com", "@yandex.ru", "@yahoo.com"]
+    private let mailsArray = ["@gmail.com", "@yandex.ru", "@yahoo.com"]
     
     public var nameMail = String()
     public var filtredMailArray = [String]()
