@@ -11,6 +11,7 @@
 		E457698F28D715010075915C /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E457698E28D715010075915C /* NetworkRequest.swift */; };
 		E457699128D72B4B0075915C /* MailResponceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E457699028D72B4B0075915C /* MailResponceModel.swift */; };
 		E457699328D748060075915C /* NetworkDataFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E457699228D748060075915C /* NetworkDataFetch.swift */; };
+		E457699528D74B930075915C /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E457699428D74B930075915C /* Alerts.swift */; };
 		E4E3946028CE3F3E0038B8F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E3945F28CE3F3E0038B8F2 /* AppDelegate.swift */; };
 		E4E3946228CE3F3E0038B8F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E3946128CE3F3E0038B8F2 /* SceneDelegate.swift */; };
 		E4E3946428CE3F3E0038B8F2 /* VerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E3946328CE3F3E0038B8F2 /* VerificationViewController.swift */; };
@@ -31,6 +32,7 @@
 		E457698E28D715010075915C /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
 		E457699028D72B4B0075915C /* MailResponceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailResponceModel.swift; sourceTree = "<group>"; };
 		E457699228D748060075915C /* NetworkDataFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetch.swift; sourceTree = "<group>"; };
+		E457699428D74B930075915C /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 		E4E3945C28CE3F3E0038B8F2 /* MailTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MailTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4E3945F28CE3F3E0038B8F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4E3946128CE3F3E0038B8F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 			children = (
 				E4E799CC28CF7F7F00D9B341 /* Cells */,
 				E4E799CE28CF7FE000D9B341 /* VerificationVC */,
+				E457699428D74B930075915C /* Alerts.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 			files = (
 				E457698F28D715010075915C /* NetworkRequest.swift in Sources */,
 				E4E9C1D328D60BB50010AD32 /* VerificationModel.swift in Sources */,
+				E457699528D74B930075915C /* Alerts.swift in Sources */,
 				E4E3947928CE41410038B8F2 /* StatusLabel.swift in Sources */,
 				E4E799C928CF7D5100D9B341 /* MailsCollectionView.swift in Sources */,
 				E457699328D748060075915C /* NetworkDataFetch.swift in Sources */,
