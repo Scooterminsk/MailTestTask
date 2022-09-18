@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E457698D28D7114F0075915C /* MailApiKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = E457698C28D7114F0075915C /* MailApiKey.swift */; };
+		E457698F28D715010075915C /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E457698E28D715010075915C /* NetworkRequest.swift */; };
 		E4E3946028CE3F3E0038B8F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E3945F28CE3F3E0038B8F2 /* AppDelegate.swift */; };
 		E4E3946228CE3F3E0038B8F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E3946128CE3F3E0038B8F2 /* SceneDelegate.swift */; };
 		E4E3946428CE3F3E0038B8F2 /* VerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E3946328CE3F3E0038B8F2 /* VerificationViewController.swift */; };
@@ -25,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		E457698C28D7114F0075915C /* MailApiKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailApiKey.swift; sourceTree = "<group>"; };
+		E457698E28D715010075915C /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
 		E4E3945C28CE3F3E0038B8F2 /* MailTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MailTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4E3945F28CE3F3E0038B8F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4E3946128CE3F3E0038B8F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				E457698C28D7114F0075915C /* MailApiKey.swift */,
+				E457698E28D715010075915C /* NetworkRequest.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E457698F28D715010075915C /* NetworkRequest.swift in Sources */,
 				E4E9C1D328D60BB50010AD32 /* VerificationModel.swift in Sources */,
 				E4E3947928CE41410038B8F2 /* StatusLabel.swift in Sources */,
 				E4E799C928CF7D5100D9B341 /* MailsCollectionView.swift in Sources */,
