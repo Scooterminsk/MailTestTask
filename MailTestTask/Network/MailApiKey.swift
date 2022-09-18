@@ -8,4 +8,4 @@
 import Foundation
 import UIKit
 
-let apiKey = "39cfe533-260c-4095-af72-cd8442658615"
+let apiKey = "live_337b7c8ff3a3f419267bc3d4e61b8a261b61106880c8ee3a7656114b1937d53f"
