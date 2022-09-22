@@ -35,6 +35,7 @@ class VerificationViewController: UIViewController {
         setupViews()
         setDelegates()
         setConstraints()
+        addObservers()
     }
 
     private func setupViews() {
@@ -48,6 +49,15 @@ class VerificationViewController: UIViewController {
         collectionView.dataSource = self
         collectionView.selectMailDelegate = self
         mailTextField.textFieldDelegate = self
+    }
+    
+    private func addObservers() {
+        NotificationCenter.default.addObserver(forName: UIResponder.keyboardWillShowNotification, object: nil, queue: nil) { nc in
+            self.view.frame.origin.y = -150
+        }
+        NotificationCenter.default.addObserver(forName: UIResponder.keyboardWillHideNotification, object: nil, queue: nil) { nc in
+            self.view.frame.origin.y = 0.0
+        }
     }
     
     @objc private func verificationButtonTapped() {

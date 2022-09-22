@@ -44,6 +44,7 @@ class MailTextField: UITextField {
         font = UIFont(name: "Apple SD Gothic Neo", size: 20)
         tintColor = #colorLiteral(red: 0.5019607843, green: 0.5019607843, blue: 0.5019607843, alpha: 1)
         translatesAutoresizingMaskIntoConstraints = false
+        keyboardType = .emailAddress
     }
 }
  
