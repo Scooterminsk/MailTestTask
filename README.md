@@ -48,4 +48,4 @@ After clicking on the verification button, 3 verification scenarios are possible
 
 <br />
 
-## 🎉 Thanks for reading the documentation, now you can see the project files.
+## 🎉 Thanks for reading the documentation, now you can check the project files.
