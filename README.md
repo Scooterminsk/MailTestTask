@@ -11,7 +11,7 @@ On it is:
 - A collection view, which is currently hidden from the user, will display the most used domains as the user enters an email.
 Screenshot of the start screen below.
 
-<img src="https://raw.githubusercontent.com/Scooterminsk/MailTestTask/main/Readme/StartScreen.png" alt="Start screen" style="height: 800px;"/>
+<img src="https://raw.githubusercontent.com/Scooterminsk/MailTestTask/main/Screenshots/StartScreen.png" alt="Start screen" style="height: 800px;"/>
 
 <br />
 
