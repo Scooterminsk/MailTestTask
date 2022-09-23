@@ -3,5 +3,9 @@ Typing in email addresses on mobile devices is error prone and time consuming. T
 
 ## 📲 Now let's see how this application works:
 
+<img src="https://raw.githubusercontent.com/Scooterminsk/MailTestTask/main/Readme/StartScreen.png" alt="Start screen" style="height: 200px;"/>
+
+<br />
+
 The start screen looks like this
 
