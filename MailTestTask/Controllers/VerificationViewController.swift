@@ -36,6 +36,7 @@ class VerificationViewController: UIViewController {
         setDelegates()
         setConstraints()
         addObservers()
+        addTap()
     }
 
     private func setupViews() {
@@ -58,6 +59,16 @@ class VerificationViewController: UIViewController {
         NotificationCenter.default.addObserver(forName: UIResponder.keyboardWillHideNotification, object: nil, queue: nil) { nc in
             self.view.frame.origin.y = 0.0
         }
+    }
+    
+    private func addTap() {
+        let tap = UITapGestureRecognizer(target: self, action: #selector(endViewEditing))
+        tap.cancelsTouchesInView = false
+        view.addGestureRecognizer(tap)
+    }
+    
+    @objc func endViewEditing() {
+        view.endEditing(true)
     }
     
     @objc private func verificationButtonTapped() {
